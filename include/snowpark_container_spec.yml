@@ -22,7 +22,7 @@ sissyg:
         port: 8501
         path: /_stcore/health
     - name: weaviate
-      image: semitechnologies/weaviate:1.17.3
+      image: cr.weaviate.io/semitechnologies/weaviate:1.17.3
       args: 
       - --host 
       - 0.0.0.0
